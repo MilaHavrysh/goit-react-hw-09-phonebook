@@ -1,0 +1,21 @@
+.contactList {
+  text-align: start;
+  margin-top: 30px;
+}
+
+.contact_list_item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact_list_item_name,
+.contact_list_item_number {
+  width: 250px;
+  height: 40px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700px;
+  display: flex;
+  align-items: center;
+}

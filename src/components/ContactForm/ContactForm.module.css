@@ -1,0 +1,10 @@
+.contact_form_input:invalid:not(:placeholder-shown) {
+  border: 3px solid red;
+}
+.contact_form_input:valid:not(:placeholder-shown) {
+  border: 3px solid green;
+}
+
+.contact_form_input {
+  width: 600px;
+}
